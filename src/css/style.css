@@ -1,0 +1,235 @@
+body {
+    background-color: #282828;
+    color: #fff;
+}
+
+.page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #0b0b0b;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+}
+
+.page-top .logo {
+    display: flex;
+    gap: 15px;
+}
+
+.page-top .menu {
+    display: flex;
+    gap: 30px;
+}
+
+.page-top .menu li a {
+    text-decoration: none;
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Chalet';
+}
+
+.page-top .menu li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.home {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+
+.home::after {
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.home .img-background {
+    width: 100%;
+    object-fit: cover;
+}
+
+.home .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+    max-width: 780px;
+}
+
+.home .infos img {
+    max-width: 150px;
+}
+
+.home .infos .games-list {
+    display: flex;
+    gap: 32px;
+}
+
+.home .infos .title {
+    font-family: "ChaletComprime";
+    font-size: 55px;
+}
+
+.home .infos .text {
+    font-family: "ChaletComprime";
+    font-size: 22px;
+    line-height: .6;
+}
+
+.btn-buy,
+.btn-platform {
+    border-radius: 4px;
+    font-family: "ChaletComprime";
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #fff;
+    transition: all .3s ease-in;
+}
+
+.btn-platform {
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-buy:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.buy-now .game-photo {
+    width: 270px;
+}
+
+.buy-now {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.buy-now .title {
+    font-family: "ChaletComprime";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.buy-now .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/6a84/3360902d782314fee48567a8a70bb9996e569698.jpg);
+    width: 80%;
+    border-radius: 10px;
+    padding: 80px;
+    gap: 40px;
+}
+
+.buy-now .card .background{
+    background-color: #282828;
+    padding: 120px;
+    border: 2px solid  #fff;
+    opacity: 0.95;
+}
+
+.buy-now .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.buy-now .infos h3 {
+    font-family: "ChaletComprime";
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.buy-now .infos {
+    color: #e8e8e8;
+    font-family: "Chalet";
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.buy_now .infos .platforms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.buy-now .btn-platform .platforms {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all .3s ease-in;
+    display: none;
+    opacity: 0;
+}
+
+.buy-now .btn-platform .platforms.active {
+    display: flex;
+    opacity: 1;
+}
+
+.buy-now .btn-platform .platforms li {
+    padding: 20px;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(1) {
+    border: 1px solid #00439c;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(1):hover {
+    background-color: #00439c;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(2) {
+    border: 1px solid #387a26;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(2):hover {
+    background-color: #387a26;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(3) {
+    border: 1px solid #7ab4ff;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(3):hover {
+    background-color: #7ab4ff;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(4) {
+    border: 1px solid #37ff00;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(4):hover {
+    background-color: #37ff00;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(5) {
+    border: 1px solid #fcaf17;
+}
+
+.buy-now .btn-platform .platforms li:nth-child(5):hover {
+    background-color: #fcaf17;
+}
