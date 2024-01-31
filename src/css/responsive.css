@@ -56,13 +56,31 @@
 
 }
 
-@media(max-width: 425px){
+@media(max-width: 430px){
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;	
+    }
+
     main::after{
         background: linear-gradient(90deg, rgba(0,0,0,0.85),rgba(0,0,0,0.4)100%, transparent 65%);
     }
 
+    .home .infos .text{
+        font-size: 30px;
+        line-height: .9;
+    }
+
     .buy-now .card{
-        
+        min-height: max-content;
+        min-width: max-content;
+    }
+
+    .buy-now .card .background{
+        width: 100%;
+        object-fit: cover;
     }
 
     .buy-now .card .game-photo{
