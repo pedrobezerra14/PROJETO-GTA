@@ -73,8 +73,13 @@
 4. [Visual Studio Code](https://code.visualstudio.com)<br>
 5. [Canva](https://www.canva.com)<br>
 
+## 🔗Link para acessar o projeto no GitHub
+
+https://github.com/pedrobezerra14/PROJETO-GTA
 
 ## 📀Demonstração
 
 - Vídeo demonstrativo do site em funcionamento
+
+https://github.com/pedrobezerra14/PROJETO-GTA/assets/133764832/2e072f89-7603-4bd7-88fe-5e6de3f49706
 
