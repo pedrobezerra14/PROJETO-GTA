@@ -1,4 +1,4 @@
-# PROJETO-GTA
+# PROJETO GTA
 - Projeto criado com inspiração na Landing Page oficial do GTA V.
 
 ## 📝Finalidade
